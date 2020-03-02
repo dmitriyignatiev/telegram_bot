@@ -11,8 +11,9 @@ Ex.:  $15.55
 3.	/history USD/CAD for 7 days 
 - return an image graph chart which shows the exchange rate graph/chart of the selected currency for the last 7 days.
 
-
-1. first step clone or download
+0. run telegram /new_bot => recieve API => paste to app_test.py on line #16 istaead of API_TOKEN(bot = telebot.TeleBot(API_TOKEN))
+00. find your socks5 proxy => paste you roxy server on app_test.py on line #18 (apihelper.proxy = {'https':'socks5h://<your socks5 proxy>'})
+1. clone or download
 2. create venv and install all dependencies
 3. pip install pyTelegramBotAPI
 4. pip install pandas
