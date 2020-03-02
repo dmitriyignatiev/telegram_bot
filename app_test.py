@@ -11,9 +11,9 @@ import logging
 
 from currency import main, find_str, history_task
 
-bot = telebot.TeleBot('1099084856:AAFjUqoxD9O1xDH1iIySjWVUMqTp8cxJhhw')
+bot = telebot.TeleBot('')
 
-apihelper.proxy = {'https':'socks5h://v3_700752421:rQYvnUvk@s5.priv.opennetwork.cc:1080'}
+apihelper.proxy = {'https':'socks5h://'}
 
 telebot.logger.setLevel(logging.DEBUG)
 
